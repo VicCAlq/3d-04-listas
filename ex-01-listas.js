@@ -12,21 +12,21 @@ Questões 01 a 08: Informe o índice correto do elemento solicitado
 /* Crie um array chamado `frutas` com as frutas: "maçã", "banana", "laranja", "uva". Acesse o segundo elemento do array e armazene na variável `resposta01`. */
 const frutas = ["maçã", "banana", "laranja", "uva"];
 // Operações aqui
-const resposta01 = false
+const resposta01 = frutas[1]
 
 
 /* Questão 2 */
 /* Dado o array `numeros = [10, 20, 30, 40, 50]`, acesse o último elemento e armazene na variável `resposta02`. */
 const numeros = [10, 20, 30, 40, 50];
 // Operações aqui
-const resposta02 = false
+const resposta02 = numeros[4]
 
 
 /* Questão 3 */
 /* Com o array `cores = ["azul", "vermelho", "verde", "amarelo", "roxo"]`, altere o terceiro elemento para "preto" e armazene o array completo na variável `resposta03`. */
 const cores = ["azul", "vermelho", "verde", "amarelo", "roxo"];
 // Operações aqui
-const resposta03 = false
+const resposta03 = cores[2] = "preto"
 
 
 /* Questão 4 */
@@ -40,7 +40,7 @@ const resposta04 = false
 /* Com o array `letras = ["a", "b", "c", "d", "e", "f"]`, acesse o elemento no índice 4 e armazene em `resposta05`. */
 const letras = ["a", "b", "c", "d", "e", "f"];
 // Operações aqui
-const resposta05 = false
+const resposta05 = letras[4]
 
 
 /* Questão 6 */
@@ -83,21 +83,24 @@ const resposta10 = false
 /* Dado o array `cidades = ["São Paulo", "Rio de Janeiro", "Belo Horizonte"]`, use o método `unshift` para adicionar "Salvador" no início do array e armazene o array resultante em `resposta11`. */
 const cidades = ["São Paulo", "Rio de Janeiro", "Belo Horizonte"];
 // Operações aqui
-const resposta11 = false
+const resposta11 = cidades.unshift("Salvador")
 
 
 /* Questão 12 */
 /* Com o array `lista12 = ["maçã", "banana", "laranja"]`, use o método `shift` para remover o primeiro elemento e armazene o elemento removido em `resposta12`. */
 const lista12 = ["maçã", "banana", "laranja"];
 // Operações aqui
-const resposta12 = false
+const resposta12 = lista12.shift()
 
 
 /* Questão 13 */
 /* Crie um array `pilha = [10, 20, 30]`. Use `push` para adicionar 40 e 50, depois use `pop` uma vez. Armazene o array final em `resposta13`. */
 const pilha = [10, 20, 30];
 // Operações aqui
-const resposta13 = false
+const resposta13 = 
+pilha.push(40)
+pilha.push(50)
+pilha.pop()
 
 
 /* Questão 14 */
@@ -125,7 +128,10 @@ const resposta16 = false
 /* Dado o array `lista17 = [100, 200, 300, 400]`, use `pop` duas vezes e depois `unshift` para adicionar 50 no início. Armazene o array final em `resposta17`. */
 const lista17 = [100, 200, 300, 400];
 // Operações aqui
-const resposta17 = false
+const resposta17 = 
+lista17.pop()
+lista17.pop() 
+lista17.unshift(50)
 
 
 /* Questão 18 */
