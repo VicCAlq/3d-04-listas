@@ -72,7 +72,7 @@ const resposta08 = pessoas
 /* Crie um array vazio chamado `lista09` e use o método `push` para adicionar os números 1, 2, 3, 4 e 5. Armazene o array final em `resposta09`. */
 const lista09 = [];
 // Operações aqui
-const resposta09 = false
+const resposta09 = false 
 
 
 /* Questão 10 */
