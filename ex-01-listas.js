@@ -12,14 +12,14 @@ Questões 01 a 08: Informe o índice correto do elemento solicitado
 /* Crie um array chamado `frutas` com as frutas: "maçã", "banana", "laranja", "uva". Acesse o segundo elemento do array e armazene na variável `resposta01`. */
 const frutas = ["maçã", "banana", "laranja", "uva"];
 // Operações aqui
-const resposta01 = false
+const resposta01 = frutas[1]
 
 
 /* Questão 2 */
 /* Dado o array `numeros = [10, 20, 30, 40, 50]`, acesse o último elemento e armazene na variável `resposta02`. */
 const numeros = [10, 20, 30, 40, 50];
 // Operações aqui
-const resposta02 = false
+const resposta02 = numeros[4]
 
 
 /* Questão 3 */
