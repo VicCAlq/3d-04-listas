@@ -114,7 +114,7 @@ const resposta14 = false
 /* Com o array `nomes = ["João", "Maria", "José"]`, use `unshift` para adicionar "Ana" e "Pedro" no início, depois use `pop` para remover o último. Armazene o array final em `resposta15`. */
 const nomes = ["João", "Maria", "José"];
 // Operações aqui
-const resposta15 = false
+const resposta15 = false 
 
 
 /* Questão 16 */
