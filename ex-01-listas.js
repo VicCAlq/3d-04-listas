@@ -1,8 +1,6 @@
 /*
 Assunto 01 - Listas
 
-
-
 ------------------------------------------------------------------------------
 
 Questões 01 a 08: Informe o índice correto do elemento solicitado
