@@ -86,5 +86,5 @@ const resposta19 = produtos.pop() // remove o último ("computador")
 /* Questão 20 */
 lista20.push(4) // adiciona 4 no final
 lista20.shift() // remove 1 do início
-lista20.unshift(0) // adiciona 0 no início
+lista20.unshift(0) // adiciona 0 no inícioo
 const resposta20 = lista20
