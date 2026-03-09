@@ -12,56 +12,59 @@ Questões 01 a 08: Informe o índice correto do elemento solicitado
 /* Crie um array chamado `frutas` com as frutas: "maçã", "banana", "laranja", "uva". Acesse o segundo elemento do array e armazene na variável `resposta01`. */
 const frutas = ["maçã", "banana", "laranja", "uva"];
 // Operações aqui
-const resposta01 = false
+const resposta01 = frutas[1]
 
 
 /* Questão 2 */
 /* Dado o array `numeros = [10, 20, 30, 40, 50]`, acesse o último elemento e armazene na variável `resposta02`. */
 const numeros = [10, 20, 30, 40, 50];
 // Operações aqui
-const resposta02 = false
+const resposta02 = numeros[numeros.length -1]
 
 
 /* Questão 3 */
 /* Com o array `cores = ["azul", "vermelho", "verde", "amarelo", "roxo"]`, altere o terceiro elemento para "preto" e armazene o array completo na variável `resposta03`. */
 const cores = ["azul", "vermelho", "verde", "amarelo", "roxo"];
 // Operações aqui
-const resposta03 = false
+cores[2] = "preto"
+const resposta03 = cores
 
 
 /* Questão 4 */
 /* Dado o array `animais = ["cachorro", "gato", "pássaro", "peixe"]`, adicione um novo elemento "coelho" na posição 2 (índice 2) e armazene o array resultante em `resposta04`. */
 const animais = ["cachorro", "gato", "pássaro", "peixe"];
 // Operações aqui
-const resposta04 = false
+animais[2] = "coelho"
+const resposta04 = animais
 
 
 /* Questão 5 */
 /* Com o array `letras = ["a", "b", "c", "d", "e", "f"]`, acesse o elemento no índice 4 e armazene em `resposta05`. */
 const letras = ["a", "b", "c", "d", "e", "f"];
 // Operações aqui
-const resposta05 = false
+const resposta05 = letras[4]
 
 
 /* Questão 6 */
 /* Dado o array `valores = [5, 10, 15, 20, 25, 30]`, acesse os elementos dos índices 0 e 3 e armazene a soma deles na variável `resposta06`. */
 const valores = [5, 10, 15, 20, 25, 30];
 // Operações aqui
-const resposta06 = false
+const resposta06 = valores[0] + valores[3]
 
 
 /* Questão 7 */
 /* Com o array `dias = ["segunda", "terça", "quarta", "quinta", "sexta"]`, verifique qual elemento está no índice 2 e armazene em `resposta07`. */
 const dias = ["segunda", "terça", "quarta", "quinta", "sexta"];
 // Operações aqui
-const resposta07 = false
+const resposta07 = dias[2]
 
 
 /* Questão 8 */
 /* Dado o array `pessoas = ["Ana", "Carlos", "Maria", "João"]`, altere o primeiro elemento para "Pedro" e armazene o array completo em `resposta08`. */
 const pessoas = ["Ana", "Carlos", "Maria", "João"];
 // Operações aqui
-const resposta08 = false
+pessoas[0] = "Pedro"
+const resposta08 = pessoas
 
 /* Questões 01 a 08: Informe o índice correto do elemento solicitado */
 
@@ -69,14 +72,17 @@ const resposta08 = false
 /* Crie um array vazio chamado `lista09` e use o método `push` para adicionar os números 1, 2, 3, 4 e 5. Armazene o array final em `resposta09`. */
 const lista09 = [];
 // Operações aqui
-const resposta09 = false
+lista09.push("1, 2, 3, 4, 5")
+const resposta09 = lista09
 
 
 /* Questão 10 */
 /* Com o array `lista10 = ["x", "y", "z"]`, use o método `pop` para remover o último elemento e armazene o elemento removido em `resposta10`. */
 const lista10 = ["x", "y", "z"];
 // Operações aqui
-const resposta10 = false
+let ultimo = lista10.pop();
+
+const resposta10 = ultimo
 
 
 /* Questão 11 */
