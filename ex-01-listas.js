@@ -34,7 +34,9 @@ const resposta03 = cores;
 /* Dado o array `animais = ["cachorro", "gato", "pássaro", "peixe"]`, adicione um novo elemento "coelho" na posição 2 (índice 2) e armazene o array resultante em `resposta04`. */
 const animais = ["cachorro", "gato", "pássaro", "peixe"];
 // Operações aqui
-animais["cachorro", "gato", "coelho", "pássaro", "peixe"];
+animais[4] = animais[3]
+animais[3] = animais[2]
+animais[2] = "coelho"
 const resposta04 = animais;
 
 
