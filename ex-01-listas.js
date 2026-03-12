@@ -26,7 +26,7 @@ const resposta02 = numeros[4]
 /* Com o array `cores = ["azul", "vermelho", "verde", "amarelo", "roxo"]`, altere o terceiro elemento para "preto" e armazene o array completo na variável `resposta03`. */
 const cores = ["azul", "vermelho", "verde", "amarelo", "roxo"];
 // Operações aqui
-const resposta03 = cores[2]("preto")
+const resposta03 = cores[2] = "preto"
 
 
 /* Questão 4 */
@@ -47,7 +47,7 @@ const resposta05 = letras[5]
 /* Dado o array `valores = [5, 10, 15, 20, 25, 30]`, acesse os elementos dos índices 0 e 3 e armazene a soma deles na variável `resposta06`. */
 const valores = [5, 10, 15, 20, 25, 30];
 // Operações aqui
-const resposta06 = valores[0]+[4]
+const resposta06 = valores[0,4]
 
 
 /* Questão 7 */
@@ -62,6 +62,9 @@ const resposta07 = dias[3]
 const pessoas = ["Ana", "Carlos", "Maria", "João"];
 // Operações aqui
 const resposta08 = pessoas.shift("Pedro")
+
+
+
 
 /* Questões 01 a 08: Informe o índice correto do elemento solicitado */
 
