@@ -66,7 +66,9 @@ const resposta07 = dias[2];
 /* Dado o array `pessoas = ["Ana", "Carlos", "Maria", "João"]`, altere o primeiro elemento para "Pedro" e armazene o array completo em `resposta08`. */
 const pessoas = ["Ana", "Carlos", "Maria", "João"];
 // Operações aqui
-const resposta08 = false
+pessoas[0] = "Pedro"
+let temporario = pessoas; 
+const resposta08 = temporario
 
 /* Questões 01 a 08: Informe o índice correto do elemento solicitado */
 
@@ -74,82 +76,108 @@ const resposta08 = false
 /* Crie um array vazio chamado `lista09` e use o método `push` para adicionar os números 1, 2, 3, 4 e 5. Armazene o array final em `resposta09`. */
 const lista09 = [];
 // Operações aqui
-const resposta09 = false
+lista09.push(1 , 2, 3, 4, 5)
+const resposta09 = lista09
 
 
 /* Questão 10 */
 /* Com o array `lista10 = ["x", "y", "z"]`, use o método `pop` para remover o último elemento e armazene o elemento removido em `resposta10`. */
 const lista10 = ["x", "y", "z"];
 // Operações aqui
-const resposta10 = false
-
+temporario = lista10.pop()
+const resposta10 = temporario
 
 /* Questão 11 */
 /* Dado o array `cidades = ["São Paulo", "Rio de Janeiro", "Belo Horizonte"]`, use o método `unshift` para adicionar "Salvador" no início do array e armazene o array resultante em `resposta11`. */
 const cidades = ["São Paulo", "Rio de Janeiro", "Belo Horizonte"];
 // Operações aqui
-const resposta11 = false
+cidades.unshift("Salvador");
+const resposta11 = cidades
 
 
 /* Questão 12 */
 /* Com o array `lista12 = ["maçã", "banana", "laranja"]`, use o método `shift` para remover o primeiro elemento e armazene o elemento removido em `resposta12`. */
 const lista12 = ["maçã", "banana", "laranja"];
 // Operações aqui
-const resposta12 = false
+
+temporario = lista12.shift()
+
+const resposta12 = temporario
 
 
 /* Questão 13 */
 /* Crie um array `pilha = [10, 20, 30]`. Use `push` para adicionar 40 e 50, depois use `pop` uma vez. Armazene o array final em `resposta13`. */
 const pilha = [10, 20, 30];
 // Operações aqui
-const resposta13 = false
+pilha.push(40 , 50)
+pilha.pop()
+const resposta13 = pilha
 
 
 /* Questão 14 */
 /* Dado o array `fila = [1, 2, 3, 4, 5]`, use `shift` para remover o primeiro elemento e depois `push` para adicionar 6. Armazene o array final em `resposta14`. */
 const fila = [1, 2, 3, 4, 5];
 // Operações aqui
-const resposta14 = false
+fila.shift()
+fila.push(6)
+const resposta14 = fila
 
 
 /* Questão 15 */
 /* Com o array `nomes = ["João", "Maria", "José"]`, use `unshift` para adicionar "Ana" e "Pedro" no início, depois use `pop` para remover o último. Armazene o array final em `resposta15`. */
 const nomes = ["João", "Maria", "José"];
 // Operações aqui
-const resposta15 = false
+nomes.unshift("ana" , "Pedro");
+nomes.pop()
+const resposta15 = nomes
 
 
 /* Questão 16 */
 /* Crie um array vazio `veiculos`. Use `push` para adicionar "carro", "moto", "bicicleta". Depois use `shift` para remover o primeiro elemento. Armazene o elemento removido em `resposta16`. */
 const veiculos = [];
 // Operações aqui
-const resposta16 = false
+veiculos.push("carro", "moto" ,"bicicleta" );
+temporario = veiculos.shift()
+const resposta16 = temporario
 
 
 /* Questão 17 */
 /* Dado o array `lista17 = [100, 200, 300, 400]`, use `pop` duas vezes e depois `unshift` para adicionar 50 no início. Armazene o array final em `resposta17`. */
 const lista17 = [100, 200, 300, 400];
 // Operações aqui
-const resposta17 = false
+lista17.pop()
+lista17.pop()
+lista17.unshift(50)
+const resposta17 = lista17
 
 
 /* Questão 18 */
 /* Com o array `lista18 = ["azul", "vermelho"]`, use `push` para adicionar "verde" e "amarelo". Depois use `shift` para remover o primeiro elemento. Armazene o array final em `resposta18`. */
 const lista18 = ["azul", "vermelho"];
 // Operações aqui
-const resposta18 = false
+lista18.push("verde", "amarelo")
+lista18.shift()
+const resposta18 = lista18
+
 
 
 /* Questão 19 */
 /* Crie um array `produtos = ["celular", "tablet", "computador"]`. Use `unshift` para adicionar "tv" no início, depois `pop` para remover o último. Armazene o elemento removido em `resposta19`. */
 const produtos = ["celular", "tablet", "computador"];
 // Operações aqui
-const resposta19 = false
+produtos.unshift("tv");
+let ultimo = produtos.pop()
+
+const resposta19 = ultimo
 
 
 /* Questão 20 */
 /* Dado o array `lista20 = [1, 2, 3]`, use `push` para adicionar 4, depois `shift` para remover o primeiro, depois `unshift` para adicionar 0 no início. Armazene o array final em `resposta20`. */
 const lista20 = [1, 2, 3];
 // Operações aqui
-const resposta20 = false
+
+lista20.push(4)
+lista20.shift()
+lista20.unshift(0)
+const resposta20 = lista20
 
