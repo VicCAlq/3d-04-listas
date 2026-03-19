@@ -147,4 +147,4 @@ const resposta19 = false
 const lista20 = [1, 2, 3];
 // Operações aqui
 const resposta20 = false
-
+//teste
