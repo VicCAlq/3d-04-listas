@@ -13,13 +13,16 @@ Questões 01 a 08: Informe o índice correto do elemento solicitado
 const frutas = ["maçã", "banana", "laranja", "uva"];
 // Operações aqui
 const resposta01 = false
-
+const frutas = ["maçã", "banana", "laranja", "uva"];
+const resposta01 = [1];
 
 /* Questão 2 */
 /* Dado o array `numeros = [10, 20, 30, 40, 50]`, acesse o último elemento e armazene na variável `resposta02`. */
 const numeros = [10, 20, 30, 40, 50];
 // Operações aqui
 const resposta02 = false
+const numeros = [10, 20, 30, 40, 50];
+const resposta02 = numeros[numeros.length - 1];
 
 
 /* Questão 3 */
@@ -27,13 +30,18 @@ const resposta02 = false
 const cores = ["azul", "vermelho", "verde", "amarelo", "roxo"];
 // Operações aqui
 const resposta03 = false
-
+const cores = ["azul", "vermelho", "verde", "amarelo", "roxo"];
+cores[2] = "preto";
+const resposta03 = cores;
 
 /* Questão 4 */
 /* Dado o array `animais = ["cachorro", "gato", "pássaro", "peixe"]`, adicione um novo elemento "coelho" na posição 2 (índice 2) e armazene o array resultante em `resposta04`. */
 const animais = ["cachorro", "gato", "pássaro", "peixe"];
 // Operações aqui
 const resposta04 = false
+const animais = ["cachorro", "gato", "pássaro", "peixe"];
+animais.splice(2, 0, "coelho");
+const resposta04 = animais;
 
 
 /* Questão 5 */
@@ -41,28 +49,33 @@ const resposta04 = false
 const letras = ["a", "b", "c", "d", "e", "f"];
 // Operações aqui
 const resposta05 = false
-
+const letras = ["a", "b", "c", "d", "e", "f"];
+const resposta05 = letras[4];
 
 /* Questão 6 */
 /* Dado o array `valores = [5, 10, 15, 20, 25, 30]`, acesse os elementos dos índices 0 e 3 e armazene a soma deles na variável `resposta06`. */
 const valores = [5, 10, 15, 20, 25, 30];
 // Operações aqui
 const resposta06 = false
-
+const valores = [5, 10, 15, 20, 25, 30];
+const resposta06 = valores[0] + valores[3];
 
 /* Questão 7 */
 /* Com o array `dias = ["segunda", "terça", "quarta", "quinta", "sexta"]`, verifique qual elemento está no índice 2 e armazene em `resposta07`. */
 const dias = ["segunda", "terça", "quarta", "quinta", "sexta"];
 // Operações aqui
 const resposta07 = false
-
+const dias = ["segunda", "terça", "quarta", "quinta", "sexta"];
+const resposta07 = dias[2];
 
 /* Questão 8 */
 /* Dado o array `pessoas = ["Ana", "Carlos", "Maria", "João"]`, altere o primeiro elemento para "Pedro" e armazene o array completo em `resposta08`. */
 const pessoas = ["Ana", "Carlos", "Maria", "João"];
 // Operações aqui
 const resposta08 = false
-
+const pessoas = ["Ana", "Carlos", "Maria", "João"];
+pessoas[0] = "Pedro";
+const resposta08 = pessoas;
 /* Questões 01 a 08: Informe o índice correto do elemento solicitado */
 
 /* Questão 9 */
@@ -70,20 +83,26 @@ const resposta08 = false
 const lista09 = [];
 // Operações aqui
 const resposta09 = false
-
+const lista09 = [];
+lista09.push(1, 2, 3, 4, 5);
+const resposta09 = lista09;
 
 /* Questão 10 */
 /* Com o array `lista10 = ["x", "y", "z"]`, use o método `pop` para remover o último elemento e armazene o elemento removido em `resposta10`. */
 const lista10 = ["x", "y", "z"];
 // Operações aqui
 const resposta10 = false
-
+const lista10 = ["x", "y", "z"];
+const resposta10 = lista10.pop();
 
 /* Questão 11 */
 /* Dado o array `cidades = ["São Paulo", "Rio de Janeiro", "Belo Horizonte"]`, use o método `unshift` para adicionar "Salvador" no início do array e armazene o array resultante em `resposta11`. */
 const cidades = ["São Paulo", "Rio de Janeiro", "Belo Horizonte"];
 // Operações aqui
 const resposta11 = false
+const cidades = ["São Paulo", "Rio de Janeiro", "Belo Horizonte"];
+cidades.unshift("Salvador");
+const resposta11 = cidades;
 
 
 /* Questão 12 */
@@ -91,27 +110,39 @@ const resposta11 = false
 const lista12 = ["maçã", "banana", "laranja"];
 // Operações aqui
 const resposta12 = false
-
+const lista12 = ["maçã", "banana", "laranja"];
+const resposta12 = lista12.shift();
 
 /* Questão 13 */
 /* Crie um array `pilha = [10, 20, 30]`. Use `push` para adicionar 40 e 50, depois use `pop` uma vez. Armazene o array final em `resposta13`. */
 const pilha = [10, 20, 30];
 // Operações aqui
 const resposta13 = false
-
+const pilha = [10, 20, 30];
+pilha.push(40, 50);
+pilha.pop();
+const resposta13 = pilha;
 
 /* Questão 14 */
 /* Dado o array `fila = [1, 2, 3, 4, 5]`, use `shift` para remover o primeiro elemento e depois `push` para adicionar 6. Armazene o array final em `resposta14`. */
 const fila = [1, 2, 3, 4, 5];
 // Operações aqui
 const resposta14 = false
-
+const fila = [1, 2, 3, 4, 5];
+fila.shift();
+fila.push(6);
+const resposta14 = fila;
 
 /* Questão 15 */
 /* Com o array `nomes = ["João", "Maria", "José"]`, use `unshift` para adicionar "Ana" e "Pedro" no início, depois use `pop` para remover o último. Armazene o array final em `resposta15`. */
 const nomes = ["João", "Maria", "José"];
 // Operações aqui
 const resposta15 = false
+const nomes = ["João", "Maria", "José"];
+nomes.unshift("Ana", "Pedro");
+nomes.pop();
+const resposta15 = nomes;
+
 
 
 /* Questão 16 */
@@ -119,6 +150,9 @@ const resposta15 = false
 const veiculos = [];
 // Operações aqui
 const resposta16 = false
+const veiculos = [];
+veiculos.push("carro", "moto", "bicicleta");
+const resposta16 = veiculos.shift();
 
 
 /* Questão 17 */
@@ -133,18 +167,28 @@ const resposta17 = false
 const lista18 = ["azul", "vermelho"];
 // Operações aqui
 const resposta18 = false
-
+const lista17 = [100, 200, 300, 400];
+lista17.pop();
+lista17.pop();
+lista17.unshift(50);
+const resposta17 = lista17;
 
 /* Questão 19 */
 /* Crie um array `produtos = ["celular", "tablet", "computador"]`. Use `unshift` para adicionar "tv" no início, depois `pop` para remover o último. Armazene o elemento removido em `resposta19`. */
 const produtos = ["celular", "tablet", "computador"];
 // Operações aqui
 const resposta19 = false
-
+const produtos = ["celular", "tablet", "computador"];
+produtos.unshift("tv");
+const resposta19 = produtos.pop();
 
 /* Questão 20 */
 /* Dado o array `lista20 = [1, 2, 3]`, use `push` para adicionar 4, depois `shift` para remover o primeiro, depois `unshift` para adicionar 0 no início. Armazene o array final em `resposta20`. */
 const lista20 = [1, 2, 3];
 // Operações aqui
 const resposta20 = false
-
+const lista20 = [1, 2, 3];
+lista20.push(4);
+lista20.shift();
+lista20.unshift(0);
+const resposta20 = lista20;
